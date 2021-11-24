@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/first_fragment_padding"
+    tools:context=".ui.FirstFragment">
+
+    <Button
+        android:id="@+id/button_first"
+        style="@style/AddButtonStyle"
+        android:layout_width="@dimen/button_add_size"
+        android:layout_height="@dimen/button_add_size"
+        android:layout_marginEnd="@dimen/button_add_margin_end"
+        android:layout_marginBottom="@dimen/button_add_margin_bottom"
+        android:background="@drawable/add_button_background"
+        android:text="@string/add"
+        android:textColor="@color/black"
+        android:textSize="@dimen/button_add_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/list_item" />
+</androidx.constraintlayout.widget.ConstraintLayout>

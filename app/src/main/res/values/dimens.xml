@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="edit_hint_margin_top">10dp</dimen>
+    <dimen name="image_hint_height">400dp</dimen>
+    <dimen name="edit_hint_label_text_size">36sp</dimen>
+    <dimen name="button_add_size">60dp</dimen>
+    <dimen name="button_add_margin_end">60dp</dimen>
+    <dimen name="button_add_margin_bottom">60dp</dimen>
+    <dimen name="button_add_text_size">24sp</dimen>
+    <dimen name="spy_item_margin_vertical">7dp</dimen>
+    <dimen name="spy_item_distance_size">50dp</dimen>
+    <dimen name="text_hint_text_size">20sp</dimen>
+    <dimen name="text_author_text_size">18sp</dimen>
+    <dimen name="first_fragment_padding">10dp</dimen>
+</resources>
